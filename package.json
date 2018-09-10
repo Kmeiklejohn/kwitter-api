@@ -30,5 +30,15 @@
     "watch": "nodemon",
     "postinstall": "sequelize db:migrate --url $DATABASE_URL",
     "heroku-prebuild": "npm install -g sequelize-cli"
-  }
+  },
+  "description": "**Basic setup for local development**",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tander29/kwitter-api.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/tander29/kwitter-api/issues"
+  },
+  "homepage": "https://github.com/tander29/kwitter-api#readme"
 }
